@@ -5,7 +5,7 @@ coverimg: https://interaktivni.rozhlas.cz/brexit/media/cover.jpg
 coverimg_note: "Foto <a href='#'>ČTK</a>"
 styles: []
 # snadné načítání csv: d3csv v libraries, d3.csv("soubor.csv").then(function(data){} ) v kódu
-libraries: [] #jquery, d3, d3v5, d3csv, highcharts, datatables
+libraries: [highcharts, "https://cdnjs.cloudflare.com/ajax/libs/highcharts/6.1.1/js/modules/wordcloud.js"] #jquery, d3, d3v5, d3csv, highcharts, datatables
 options: [noheader] #wide, noheader (, nopic)
 ---
 <left>
@@ -17,6 +17,10 @@ options: [noheader] #wide, noheader (, nopic)
 </left>
 
 Během dne se lidé v Praze soustřeďují v okolí administrativních center a obchodů, po poledni se tak nejvíc zahustí okolí Andělu, centrum Prahy (Vodičkova ulice a Petrské náměstí) a Brumlovka nedaleko Budějovické. Na poslední jmenované adrese sídlí řada velkých korporací, mezi nimi i Microsoft nebo ČEZ. Pro srovnání, na zmíněných místech je ve „špičce“ okolo šesti stovek osob na jeden hektar, průměr Prahy je 25 obyvatel na [hektar](https://cs.wikipedia.org/wiki/Hektar) (Václavské náměstí má rozlohu asi 4 hektary).
+
+<wide>
+	<div id="charts"></div>
+</wide>
 
 Naopak v noci se nejvíc lidí se „namačká“ ve Vršovicích, jde o 430 osob na hektar.
 
