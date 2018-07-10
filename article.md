@@ -1,8 +1,8 @@
 title: "Od Kramáře k Babišovi:<br>Jak se měnila vládní prohlášení"
-perex: "Programové prohlášení menšinové vlády ANO a ČSSD podporované KSČM je obsahově vůbec nejdelším za posledních 100 let historie vlád, pokud by v roce 2014 nepřipojil Bohuslav Sobotka k programovému prohlášení také koaliční smlouvu. Vyplývá to z analýzy datových novinářů iRozhlas.cz."
+perex: "Programové prohlášení vlády Andreje Babiše obsahuje 14 223 slov a je tudíž nejdelší ze všech programů československých a českých vlád za posledních sto let. Těsně ho předstihl jen předchozí kabinet Bohuslava Sobotky, který však jako jediný ke svému ustavujícímu dokumentu připojil i plné znění koaliční smlouvy. Samotný program měl Sobotka stručnější."
 published: "11. července 2018"
-coverimg: https://www.irozhlas.cz/sites/default/files/uploader/3177864-milan-hodza-_180403-231411_pj.jpeg
-coverimg_note: "Slovenskému agrárníkovi Milanu Hodžovi (na snímku) stačilo na programové prohlášení 149 slov, Andrej Babiš jich potřebuje stokrát víc. Foto <a href='#'>Foto: Archiv Českého rozhlasu</a>"
+coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/3177864-milan-hodza-_180403-231411_pj.jpeg?itok=cK7OnNP8
+coverimg_note: "Slovenskému agrárníkovi Milanu Hodžovi (na snímku) stačilo na programové prohlášení 149 slov, Andrej Babiš jich použil stokrát víc. Foto <a href='#'>Foto: Archiv Českého rozhlasu</a>"
 styles: []
 # snadné načítání csv: d3csv v libraries, d3.csv("soubor.csv").then(function(data){} ) v kódu
 libraries: [highcharts, "https://cdnjs.cloudflare.com/ajax/libs/highcharts/6.1.1/js/modules/wordcloud.js"] #jquery, d3, d3v5, d3csv, highcharts, datatables
