@@ -3,9 +3,7 @@ var delky_data = []
 
 delky.forEach(function(d) {
     delky_premi.push(d.rok + ' ' + d.jmeno)
-
     delky_data.push({'y': d.pocetslov, 'color': timeCols[d.obdobi]})
-    
 });
 
 Highcharts.chart('delka', {
