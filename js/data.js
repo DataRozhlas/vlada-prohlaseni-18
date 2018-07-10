@@ -46,9 +46,6 @@ var vlady = {
         'name': 'stavební ruch',
         'weight': 4
     }, {
-        'name': 'národní shromáždění',
-        'weight': 8
-    }, {
         'name': 'národní obrana',
         'weight': 3
     }, {
@@ -96,9 +93,6 @@ var vlady = {
         'name': 'konkurenční schopnost',
         'weight': 3
     }, {
-        'name': 'národní shromáždění',
-        'weight': 4
-    }, {
         'name': 'mírová smlouva',
         'weight': 3
     }],
@@ -114,9 +108,6 @@ var vlady = {
     }, {
         'name': 'zvláštní péče',
         'weight': 5
-    }, {
-        'name': 'národní shromáždění',
-        'weight': 8
     }, {
         'name': 'stabilisovaná měna',
         'weight': 3
@@ -284,9 +275,6 @@ var vlady = {
         'weight': 3
     }],
     '1945 Fierlinger II.': [{
-        'name': 'národní shromáždění',
-        'weight': 18
-    }, {
         'name': 'prozatímní národní shromáždění',
         'weight': 7
     }, {
@@ -319,9 +307,6 @@ var vlady = {
     }],
     '1946 Gottwald': [{
         'name': 'dvouletý plán',
-        'weight': 15
-    },{
-        'name': 'národní shromáždění',
         'weight': 15
     }, {
         'name': 'nynější stav',
@@ -427,14 +412,8 @@ var vlady = {
         'weight': 4
     }],
     '1948 Gottwald': [{
-        'name': 'Ústavodárné národní shromáždění',
-        'weight': 11
-    }, {
         'name': 'obrozená národní fronta',
         'weight': 11
-    }, {
-        'name': 'národní shromáždění',
-        'weight': 13
     }, {
         'name': 'Československá ústava',
         'weight': 5
@@ -508,9 +487,6 @@ var vlady = {
     }, {
         'name': 'vláda obrozené národní fronty',
         'weight': 6
-    }, {
-        'name': 'národní shromáždění',
-        'weight': 13
     }, {
         'name': 'veřejný zaměstnanec',
         'weight': 5
@@ -942,9 +918,6 @@ var vlady = {
     '1968 Černík': [{
         'name': 'soustava řízení',
         'weight': 12
-    }, {
-        'name': 'národní shromáždění',
-        'weight': 22
     }, {
         'name': 'socialistická společnost',
         'weight': 11

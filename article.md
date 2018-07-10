@@ -1,12 +1,12 @@
 title: "Od válečného dědictví k digitálnímu Česku.:<br>Podívejte se na přehled programových prohlášení posledních 51 vlád."
 perex: "Programové prohlášení menšinové vlády ANO a ČSSD podporované KSČM je obsahově vůbec nejdelším za posledních 100 let historie vlád, pokud by v roce 2014 nepřipojil Bohuslav Sobotka k programovému prohlášení také koaliční smlouvu. Vyplývá to z analýzy datových novinářů iRozhlas.cz."
 published: "11. července 2018"
-coverimg: https://interaktivni.rozhlas.cz/brexit/media/cover.jpg
+coverimg: https://www.irozhlas.cz/sites/default/files/uploader/3177864-milan-hodza-_180403-231411_pj.jpeg
 coverimg_note: "Foto <a href='#'>ČTK</a>"
 styles: []
 # snadné načítání csv: d3csv v libraries, d3.csv("soubor.csv").then(function(data){} ) v kódu
 libraries: [highcharts, "https://cdnjs.cloudflare.com/ajax/libs/highcharts/6.1.1/js/modules/wordcloud.js"] #jquery, d3, d3v5, d3csv, highcharts, datatables
-options: [noheader] #wide, noheader (, nopic)
+options: [] #wide, noheader (, nopic)
 ---
 
 Od dříve zveřejněného návrhu prošla nejnovější verze prohlášení pouze kosmetickými změnami. Odmítání uprchlických kvót, důchodová reforma, digitalizace Česka, prosazení se v unii, či nová daňová reforma. „Prostě mysleme na budoucnost a nežijme jen dneškem,“ stojí hned v úvodu. Jak originální je však 34 stánkový text premiéra Andreje Babiše v porovnání s 50 zbylými programy českých vlád od dob první republiky?
