@@ -14,7 +14,9 @@ Highcharts.chart('delka', {
         text: 'Délky programových prohlášení'
     },
     credits: {
-        enabled: false
+        enabled: true,
+        text: 'Zdroj: vlada.cz',
+        href: 'javascript:window.open("https://www.vlada.cz//", "_blank")'
     },
     xAxis: {
         categories: delky_premi,
