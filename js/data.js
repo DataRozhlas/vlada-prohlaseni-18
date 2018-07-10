@@ -1,8 +1,5 @@
 var vlady = {
     '1919 Tusar': [{
-        'name': 'národní shromáždění',
-        'weight': 7
-    }, {
         'name': 'zásada demokracie',
         'weight': 3
     }, {
