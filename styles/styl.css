@@ -18,6 +18,14 @@ hr {
     padding: 0;
     margin: 0;
 }
+.cloudwrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
 .cloud {
     max-width: 400px;
     transform: scale(0.8);

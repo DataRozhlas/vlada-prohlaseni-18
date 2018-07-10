@@ -11,8 +11,9 @@ options: [] #wide, noheader (, nopic)
 
 Od dříve zveřejněného návrhu prošla nejnovější verze prohlášení pouze kosmetickými změnami. Odmítání uprchlických kvót, důchodová reforma, digitalizace Česka, prosazení se v unii, či nová daňová reforma. „Prostě mysleme na budoucnost a nežijme jen dneškem,“ stojí hned v úvodu. Jak originální je však 34 stánkový text premiéra Andreje Babiše v porovnání s 50 zbylými programy českých vlád od dob první republiky?
 
-
+<div class="cloudwrap">
 <div class="cloud" id="2018 Babiš"></div>
+</div>
 
 <wide>Vizualizace ukazuje ta sousloví, které jsou v porovnání s referenčním textem nejoriginálnější. To znamená, že se v jednotlivém prohlášení objevují více, než v kterémkoliv jiném prohlášení a zároveň se objevuje častěji, než třikrát. Z 51 programových prohlášení tak ukazujeme výrazy 39 z nich. Celé texty prohlášení naleznete v odkazech???</wide>
 
@@ -20,17 +21,20 @@ U nové vlády na první pohled rezonuje téma digitalizace, zemědělské polit
 
 Jednoznačným tahounem je však slovo digitální. V textu premiéra Babiše se objeve hned ve třech desítkách případů, a v 21 různých kombinacích. Nová vláda slibuje kompletní digitální revoluci, přestavbu, transformaci. Infrastrukturu, trh, či dokonce identitu. Slovo digitální pochází s latinského digitus, tedy prst. Dle prohlášení součástí této nové digitální identity budou například občanské průkazy s čipem, které se vydávají od letošního června, jak [informoval server iRozhlas.cz]
 (https://www.irozhlas.cz/zpravy-domov/elektronicky-obcansky-prukaz-cip_1804052022_pj
-). 
+).
 
-Prohlášení se mimo jiné dotýká postavení českých zemědělců v Evropské unii, v rámci Společné zemědělské politiky slibuje prosazení spravedlivých podmínek. V praxi to znamená, že chce zachovat příjem dotací pro [velké zemědělské podniky] (https://www.irozhlas.cz/zpravy-domov/intenzivni-zemedelstvi-nici-ceskou-prirodu-mnohe-druhy-ptaku-na-polich-nepreziji_1803120600_cib)
-. 
+<wide>
+<div id="delka"></div>
+</wide>
+
+Prohlášení se mimo jiné dotýká postavení českých zemědělců v Evropské unii, v rámci Společné zemědělské politiky slibuje prosazení spravedlivých podmínek. V praxi to znamená, že chce zachovat příjem dotací pro [velké zemědělské podniky] (https://www.irozhlas.cz/zpravy-domov/intenzivni-zemedelstvi-nici-ceskou-prirodu-mnohe-druhy-ptaku-na-polich-nepreziji_1803120600_cib). 
 
 
 Najít unikátní sousloví vyskytující se v programových prohlášeních může však být složitější, než se zdá. Při srovnání programového prohlášení Andreje Babiše, s prohlášením bývalé vlády Bohuslava Sobotky analýza prokázala hned několik shod. V některých případech se jedná o celé opsané věty, třeba jen s jedním přidaným, či pozměněným slovem. Mezi nejdelší shluky stejných slov (n-gramy), které přecházejí z jednoho prohlášení do druhého nalezneme například sousloví „kroky směřující k maximálnímu snižování administrativní zátěže pro podnikatele” či “zapojení do úsilí čelit mezinárodnímu terorismu a kyberterorismu.” Sobotka ho měl sice o 1400 slov delší, například slovo korupce se však v textu objevilo 12 krát. U Babiše pouze třikrát. 
 
-
+<div class="cloudwrap">
 <div class="cloud" id="2014 Sobotka"></div>
-
+</div>
 
 Zatímco po revoluci se nejčastěji objevují výrazy spojené s ekonomickou reformou, či ukotvení ČR v rámci EU, za vlády totality zněla v prohlášeních sousloví spojená s rozvojem či výstavbou, socialistickou společností, hospodářstvím, či národními důchody. Československo za více než 40 let komunistického režimu vystřídalo 17??? vlád.  Za dobu své sto leté samostatnosti pak 4 politické režimy????
 

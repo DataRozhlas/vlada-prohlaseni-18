@@ -1,11 +1,3 @@
-var timeCols = {
-    'První republika': '#878787',
-    'Druhá republika': '#d95f02',
-    'Poválečné Československo': '#006837',
-    'Komunistické Československo': '#e41a1c',
-    'Česká a Slovenská federativní republika': '#984ea3',
-    'Česká republika': '#377eb8'
-};
 function drawChart(vl) {
     Highcharts.chart(vl, {
         chart: {
