@@ -1,4 +1,4 @@
-var vlady = {
+vlady = {
     '1919 Tusar': [{
         'name': 'zásada demokracie',
         'weight': 3
@@ -3184,7 +3184,7 @@ var vlady = {
     }]
 };
 
-var meta = {
+meta = {
     '1919 Tusar': {
         'url': 'https://www.vlada.cz/assets/clenove-vlady/historie-minulych-vlad/prehled-vlad-cr/1918-1938-csr/vlastimil-tusar-1/ppv-tusar-1919-1920.pdf',
         'obd': 'První republika'
@@ -3342,7 +3342,7 @@ var meta = {
         'obd': 'Česká republika'
     }}
 
-    var delky = [{"rok":1918,"jmeno":"Kramář","pocetslov":925,"obdobi":"První republika"},
+    delky = [{"rok":1918,"jmeno":"Kramář","pocetslov":925,"obdobi":"První republika"},
     {"rok":1919,"jmeno":"Tusar","pocetslov":1724,"obdobi":"První republika"},
     {"rok":1920,"jmeno":"Černý","pocetslov":4099,"obdobi":"První republika"},
     {"rok":1920,"jmeno":"Tusar","pocetslov":2844,"obdobi":"První republika"},
@@ -3394,7 +3394,7 @@ var meta = {
     {"rok":2014,"jmeno":"Sobotka","pocetslov":15616,"obdobi":"Česká republika"},
     {"rok":2018,"jmeno":"Babiš","pocetslov":14223,"obdobi":"Česká republika"}];
 
-    var timeCols = {
+    timeCols = {
         'První republika': '#878787',
         'Druhá republika': '#d95f02',
         'Poválečné Československo': '#006837',
@@ -3403,50 +3403,107 @@ var meta = {
         'Česká republika': '#377eb8'
     };
 
-function drawChart(vl) {
-    Highcharts.chart(vl, {
+(function() {
+    function drawChart(vl) {
+        Highcharts.chart(vl, {
+            chart: {
+                width: 400,
+            },
+            credits: {
+                enabled: false
+            },
+            tooltip: {
+                style: {
+                    fontSize: '16px'
+                },
+                formatter: function () {
+                    return '<span style="text-align: center;">Sousloví <b>' + this.point.name +
+                        '</b><br> se objevilo <b>' + this.point.weight + 'krát</b></span>';
+                }
+            },
+            colors: [timeCols[meta[vl]['obd']]],
+            series: [
+                {
+                    rotation: {
+                        from: 0,
+                        to: 0
+                },
+                maxFontSize: 15,
+                minFontSize: 1,
+                type: 'wordcloud',
+                data: vlady[vl].slice(0,15),
+            }],
+            title: {
+                text: '<a href="javascript:window.open(\'' + meta[vl]['url'] + '\', \'\_blank\'\);">' + vl + '</b>'
+            },
+            subtitle: { 
+                text: meta[vl]['obd'] ,
+                style: {
+                    color: timeCols[meta[vl]['obd']],
+                    fontSize: '15px'
+                }
+            }
+        });
+    };
+    Object.keys(vlady).reverse().forEach(function(vl) {
+        document.getElementById('charts').innerHTML += '<div class="cloud" id="' + vl + '"></div>'
+    });
+    Object.keys(vlady).forEach(function(vl) {
+        drawChart(vl)
+    });
+})();
+
+(function() {
+    var delky_premi = []
+    var delky_data = []
+
+    delky.forEach(function(d) {
+        delky_premi.push(d.rok + ' ' + d.jmeno)
+        delky_data.push({'y': d.pocetslov, 'color': timeCols[d.obdobi]})
+    });
+
+    Highcharts.chart('delka', {
         chart: {
-            width: 400,
+            type: 'column'
+        },
+        title: {
+            text: 'Délky programových prohlášení'
         },
         credits: {
+            enabled: true,
+            text: 'Zdroj: vlada.cz',
+            href: 'javascript:window.open("https://www.vlada.cz//", "_blank")'
+        },
+        xAxis: {
+            categories: delky_premi,
+            crosshair: true
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: 'Počet slov'
+            }
+        },
+        legend: {
             enabled: false
         },
         tooltip: {
-            style: {
-                fontSize: '16px'
-            },
-            formatter: function () {
-                return '<span style="text-align: center;">Sousloví <b>' + this.point.name +
-                    '</b><br> se objevilo <b>' + this.point.weight + 'krát</b></span>';
+            headerFormat: '<span style="font-size:16px">{point.key}</span><table>',
+            pointFormat: '<tr><td style=";padding:0">Délka: </td>' +
+                '<td style="padding:0"><b>{point.y:.0f} slov</b></td></tr>',
+            footerFormat: '</table>',
+            shared: true,
+            useHTML: true
+        },
+        plotOptions: {
+            column: {
+                pointPadding: 0.2,
+                borderWidth: 0
             }
         },
-        colors: [timeCols[meta[vl]['obd']]],
-        series: [
-            {
-                rotation: {
-                    from: 0,
-                    to: 0
-            },
-            maxFontSize: 15,
-            minFontSize: 1,
-            type: 'wordcloud',
-            data: vlady[vl].slice(0,15),
-        }],
-        title: {
-            text: '<a href="javascript:window.open(\'' + meta[vl]['url'] + '\', \'\_blank\'\);">' + vl + '</b>'
-        },
-        subtitle: { 
-            text: meta[vl]['obd'] ,
-            style: {
-                color: timeCols[meta[vl]['obd']],
-                fontSize: '15px'
-            }
-        }
+        series: [{
+            data: delky_data
+        }]
     });
-};
-Object.keys(vlady).reverse().forEach(function(vl) {
-    document.getElementById('charts').innerHTML += '<div class="cloud" id="' + vl + '"></div>'
-});
-Object.keys(vlady).forEach(function(vl) {
-    drawChart(vl)
-});
+})();
+
