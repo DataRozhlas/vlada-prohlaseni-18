@@ -1,6 +1,6 @@
-title: "Data z mobilů:<br>Praha se denně nafoukne o polovinu, v centru jsou návštěvníci v převaze"
-perex: "Skoro 140 tisíc lidí přijede do Prahy každý den za prací. Míří hlavně do kancelářských budov a do centra města. S nimi pak dorazí i přes půl milionu návštěvníků. Ukázala to analýza dat o pohybu mobilních telefonů, kterou si nyní město nechává zpracovat."
-published: "21. dubna 2018"
+title: "Od válečného dědictví k digitálnímu Česku.:<br>Podívejte se na přehled programových prohlášení posledních 51 vlád."
+perex: "Programové prohlášení menšinové vlády ANO a ČSSD podporované KSČM je obsahově vůbec nejdelším za posledních 100 let historie vlád, pokud by v roce 2014 nepřipojil Bohuslav Sobotka k programovému prohlášení také koaliční smlouvu. Vyplývá to z analýzy datových novinářů iRozhlas.cz."
+published: "11. července 2018"
 coverimg: https://interaktivni.rozhlas.cz/brexit/media/cover.jpg
 coverimg_note: "Foto <a href='#'>ČTK</a>"
 styles: []
@@ -8,38 +8,34 @@ styles: []
 libraries: [highcharts, "https://cdnjs.cloudflare.com/ajax/libs/highcharts/6.1.1/js/modules/wordcloud.js"] #jquery, d3, d3v5, d3csv, highcharts, datatables
 options: [noheader] #wide, noheader (, nopic)
 ---
-<left>
-	<p>
-	<b>KAREL HYNEK MÁCHA</b>
-	</p><p>
-	Karel Hynek Mácha (16. listopadu 1810 Praha-Malá Strana[1] – 6. listopadu 1836 Litoměřice[2]) byl český básník a prozaik, představitel českého romantismu a zakladatel moderní české poezie. Proslavil se jak svým životem, tak dílem, jemuž dominuje Máj (1836).
-	</p>
-</left>
 
-Během dne se lidé v Praze soustřeďují v okolí administrativních center a obchodů, po poledni se tak nejvíc zahustí okolí Andělu, centrum Prahy (Vodičkova ulice a Petrské náměstí) a Brumlovka nedaleko Budějovické. Na poslední jmenované adrese sídlí řada velkých korporací, mezi nimi i Microsoft nebo ČEZ. Pro srovnání, na zmíněných místech je ve „špičce“ okolo šesti stovek osob na jeden hektar, průměr Prahy je 25 obyvatel na [hektar](https://cs.wikipedia.org/wiki/Hektar) (Václavské náměstí má rozlohu asi 4 hektary).
+Od dříve zveřejněného návrhu prošla nejnovější verze prohlášení pouze kosmetickými změnami. Odmítání uprchlických kvót, důchodová reforma, digitalizace Česka, prosazení se v unii, či nová daňová reforma. „Prostě mysleme na budoucnost a nežijme jen dneškem,“ stojí hned v úvodu. Jak originální je však 34 stánkový text premiéra Andreje Babiše v porovnání s 50 zbylými programy českých vlád od dob první republiky?
+
+
+<div class="cloud" id="2018 Babiš"></div>
+
+<wide>Vizualizace ukazuje ta sousloví, které jsou v porovnání s referenčním textem nejoriginálnější. To znamená, že se v jednotlivém prohlášení objevují více, než v kterémkoliv jiném prohlášení a zároveň se objevuje častěji, než třikrát. Z 51 programových prohlášení tak ukazujeme výrazy 39 z nich. Celé texty prohlášení naleznete v odkazech???</wide>
+
+U nové vlády na první pohled rezonuje téma digitalizace, zemědělské politiky, či obrany.  Mnohem častěji také hovoří o migraci, či slevách na jízdné. Téma obrany vnitřních hranic, či kvót je tedy do jisté míry odrazem událostí posledních let. O Evropské migrační krizi hovoříme od roku 2015, tedy až po vzniku Sobotkovy vlády, i proto ve srovnání vystupuje do popředí. 
+
+Jednoznačným tahounem je však slovo digitální. V textu premiéra Babiše se objeve hned ve třech desítkách případů, a v 21 různých kombinacích. Nová vláda slibuje kompletní digitální revoluci, přestavbu, transformaci. Infrastrukturu, trh, či dokonce identitu. Slovo digitální pochází s latinského digitus, tedy prst. Dle prohlášení součástí této nové digitální identity budou například občanské průkazy s čipem, které se vydávají od letošního června, jak [informoval server iRozhlas.cz]
+(https://www.irozhlas.cz/zpravy-domov/elektronicky-obcansky-prukaz-cip_1804052022_pj
+). 
+
+Prohlášení se mimo jiné dotýká postavení českých zemědělců v Evropské unii, v rámci Společné zemědělské politiky slibuje prosazení spravedlivých podmínek. V praxi to znamená, že chce zachovat příjem dotací pro [velké zemědělské podniky] (https://www.irozhlas.cz/zpravy-domov/intenzivni-zemedelstvi-nici-ceskou-prirodu-mnohe-druhy-ptaku-na-polich-nepreziji_1803120600_cib)
+. 
+
+
+Najít unikátní sousloví vyskytující se v programových prohlášeních může však být složitější, než se zdá. Při srovnání programového prohlášení Andreje Babiše, s prohlášením bývalé vlády Bohuslava Sobotky analýza prokázala hned několik shod. V některých případech se jedná o celé opsané věty, třeba jen s jedním přidaným, či pozměněným slovem. Mezi nejdelší shluky stejných slov (n-gramy), které přecházejí z jednoho prohlášení do druhého nalezneme například sousloví „kroky směřující k maximálnímu snižování administrativní zátěže pro podnikatele” či “zapojení do úsilí čelit mezinárodnímu terorismu a kyberterorismu.” Sobotka ho měl sice o 1400 slov delší, například slovo korupce se však v textu objevilo 12 krát. U Babiše pouze třikrát. 
+
+
+<div class="cloud" id="2014 Sobotka"></div>
+
+
+Zatímco po revoluci se nejčastěji objevují výrazy spojené s ekonomickou reformou, či ukotvení ČR v rámci EU, za vlády totality zněla v prohlášeních sousloví spojená s rozvojem či výstavbou, socialistickou společností, hospodářstvím, či národními důchody. Československo za více než 40 let komunistického režimu vystřídalo 17??? vlád.  Za dobu své sto leté samostatnosti pak 4 politické režimy????
 
 <wide>
 	<div id="charts"></div>
 </wide>
 
-Naopak v noci se nejvíc lidí se „namačká“ ve Vršovicích, jde o 430 osob na hektar.
-
-Detaily si můžete prohlédnout v následující mapě, kterou z dat mobilních operátorů zpracoval pražský [Institut plánování a rozvoje](http://www.iprpraha.cz/).
-
-<wide>_Pokud vás zajímá, kolik lidí bývá ve dne a v noci ve vaší čtvrti, najděte si ji na mapě, přepněte se na časové řezy, vyberte přepínač hustota osob a potom pohybujte posuvníkem nahoře._</wide>
-
-
-## Data na prodej
-<right>
-	<p>
-	<b>KAREL HYNEK MÁCHA</b>
-	</p><p>
-	Karel Hynek Mácha (16. listopadu 1810 Praha-Malá Strana[1] – 6. listopadu 1836 Litoměřice[2]) byl český básník a prozaik, představitel českého romantismu a zakladatel moderní české poezie. Proslavil se jak svým životem, tak dílem, jemuž dominuje Máj (1836).
-	</p>
-</right>
-
-I pokud netelefonujeme nebo neposíláme SMS, telefon pravidelně komunikuje s vysílači v síti mobilního operátora. Z dat o síle signálu a použité anténě je možné odvodit, kde se přibližně telefon nachází a jak dlouhou dobu na místě strávil.
-
-Mobilní operátor má [zákonnou povinnost](https://www.zakonyprolidi.cz/cs/2005-127/zneni-20160919#p97-3) takové informace uchovávat, a to půl roku do minulosti, přistupovat k nim ale mohou jen bezpečnostní složky, typicky policie nebo rozvědka.
-
-Operátoři ale obdobné informace mohou anonymizovat (tedy zbavit identifikace konkrétního uživatele) a agregovat, tedy spojit informace o jednotlivcích do jakýchsi skupin. Výsledná obecná čísla pak přeprodávají dál, například marketingovým firmám či dopravním analytikům. Zpětně z nich nejde dovodit, kde se pohybuje každý jednotlivec, dávají ale určitý přehled o obecném chování obyvatel nějakého místa.
+Vůbec prvním programové prohlášení představil v roce 1918 ministerský předseda ČSR Karel Kramář. Oproti těm nejobsáhlejším, které mají nad 14 000 slov, bylo poměrně krátké, necelé tři strany. Historicky nejkratší ho však měl v roce 1935 slovenský politik agrární strany Milan Hodža, stručných 149 slov. 
